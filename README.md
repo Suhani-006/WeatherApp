@@ -14,8 +14,16 @@ This Weather Application allows users to check real-time weather conditions and 
   - **Brief Description of Conditions**  
 
 ## Screenshots  
-![Home Screen](Screenshots/ss2.png)  
-*Home Screen with Search Bar and Welcoming Message*  
+<img src="Screenshots/ss2.png" alt="Home Screen" width="75%">
+Home Screen  
 
-![Weather Results](Screenshots/ss1.png)  
-*Weather Details Display for a Searched Location*  
+<img src="Screenshots/ss1.png" alt="Weather Info" width="75%">
+Weather Details
+
+
+## Instructions to Run the Project  
+1. Clone the repository
+2. Install dependencies
+3. Add your OpenWeatherMap API key
+4. Start the app
+5. Open http://localhost:3000 in your browser

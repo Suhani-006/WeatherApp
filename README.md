@@ -1,4 +1,4 @@
-# Weather Application 🌦️  
+# Weather Application 
 
 ## Task Description  
 This Weather Application allows users to check real-time weather conditions and forecasts for any specified location.

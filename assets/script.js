@@ -13,7 +13,7 @@ const windValueTxt = document.querySelector('.wind-value-txt')
 const weatherSummaryImg = document.querySelector('.weather-summary-img')
 const currentDateTxt = document.querySelector('.current-date-txt')
 
-const forecastItemsContainer = document.querySelector('.forecast-items-container    ')
+const forecastItemsContainer = document.querySelector('.forecast-items-container')
 
 const apiKey = '73147e564fc24a1976001efb95ceb747'
 
@@ -34,7 +34,6 @@ cityInput.addEventListener('keydown', (event) => {
     }
 })
 async function getFetchData(endPoint, city) {
-    // const apiUrl = 'https://api.openweathermap.org/data/2.5/${endPoint}?q=${city}&appid=${apiKey}'
     const apiUrl = `https://api.openweathermap.org/data/2.5/${endPoint}?q=${city}&appid=${apiKey}&units=metric`
 
     const response = await fetch(apiUrl)

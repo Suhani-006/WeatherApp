@@ -27,3 +27,5 @@ Weather Details
 3. Add your OpenWeatherMap API key
 4. Start the app
 5. Open http://localhost:3000 in your browser
+
+## Deployed link of the website WeatherApp : "https://gilded-buttercream-ac81a7.netlify.app/"
